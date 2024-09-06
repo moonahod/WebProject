@@ -7,11 +7,11 @@ from tkinter import messagebox
 
 
 def home(request):
-    response = HttpResponse(content='Hello, Im a banana')
+    response = HttpResponse(content='Hello, this is an ultimate Qr coder')
     return response
 
 def guide(request):
-    response = HttpResponse('Are You a banana?')
+    response = HttpResponse('Use it properly')
     return response
 
 def start(request):
@@ -19,5 +19,5 @@ def start(request):
     return response
 
 def code(request):
-    response = HttpResponse('Wait, arent you a mtber? ;)')
+    response = HttpResponse('Hope you enjoy it!')
     return response
